@@ -1,0 +1,2 @@
+{'number_tag':6,'embedding_dim': 128, 'hidden_dim': 256, 'dropout': 0.25, 'lr': 0.001, 'wight_decay': 0.01, 'max_epoch': 2, 'batch_size': 32}
+{'number_tag':3,'embedding_dim': 128, 'hidden_dim': 256, 'dropout': 0.25, 'lr': 0.001, 'wight_decay': 0.01, 'max_epoch': 2, 'batch_size': 32}
