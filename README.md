@@ -9,7 +9,7 @@
   （網址內有串無法破譯的代碼：1y3765756447819973575!   2y11794027760928749997! xxxxxxxxx!  1s3Lq3YvjbA4iB-QaZy52gBA!7e81），因此進行以下研究。
   
           1. 本專案是利用爬蟲抓取ＧＯＯＧＬＥ評論進行模型訓練。
-          2. 爬蟲技術使用Requests、Selenium及PyAutoGUI 進行。
+          2. 爬蟲技術使用Requests、Selenium及PyAutoGUI。
           3. PyAutoGUI 可以開啟開發者工具，抓取爬蟲需要的 JSON 網址，最後丟到Requests進行數據大量抓取。
           
           
