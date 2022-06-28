@@ -50,8 +50,8 @@ def main():
         assistant = AssistantServiceClientWithLed(board=board,
                                                   volume_percentage=args.volume,
                                                   language_code=args.language)
+        a=0
         while True:
-            a=0
             logging.info('Press button to start conversation...')
             say('Press button to start conversation')
             board.button.wait_for_press()
