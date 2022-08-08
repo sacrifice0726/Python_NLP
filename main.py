@@ -50,19 +50,12 @@ def main():
         assistant = AssistantServiceClientWithLed(board=board,
                                                   volume_percentage=args.volume,
                                                   language_code=args.language)
-        a=0
         while True:
             logging.info('Press button to start conversation...')
             say('Press button to start conversation')
             board.button.wait_for_press()
             logging.info('Conversation started!')
-            try:
-                assistant.conversation()
-                if a >3 :
-                    break
-            except Exception as e:
-                a+=1
-                print(e)
+            assistant.conversation()
 
 if __name__ == '__main__':
     main()
