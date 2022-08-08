@@ -6,7 +6,6 @@ from bilstm_model import classify_LSTM
 
 pkl_path = os.path.abspath('NLP/Data/data_pkl/type_data_pkl')+'/'
 
-#   create load data by pickle 
 def load_data(dataset):
     with open("{}{}".format(pkl_path,dataset),"rb") as inp:
         
